@@ -1,5 +1,7 @@
 set hidden
 
+execute pathogen#infect()
+
 syntax on
 :set number
 :set expandtab
@@ -8,6 +10,8 @@ syntax on
 :set autoindent
 :color darkblue
 set backspace=2
+
+filetype plugin indent on
 
 hi Normal ctermfg=252 ctermbg=none
 hi NonText ctermfg=250 ctermbg=none
