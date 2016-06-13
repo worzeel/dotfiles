@@ -2,4 +2,4 @@ export PS1="\[\033[38;5;87m\][\[$(tput sgr0)\]\[\033[38;5;2m\]\w\[$(tput sgr0)\]
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
-export PATH=$HOME/bin/
+export PATH=$HOME/bin/:$PATH
