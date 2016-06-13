@@ -23,3 +23,6 @@ function _prompt_command() {
 PS1="`_git_prompt`\[\033[38;5;87m\][\[$(tput sgr0)\]\[\033[38;5;2m\]\w\[$(tput sgr0)\]\[\033[38;5;87m\]]\[$(tput sgr0)\]\[\033[38;5;15m\]\n(\[$(tput sgr0)\]\[\033[38;5;45m\]\u\[$(tput sgr0)\]\[\033[38;5;11m\]@\[$(tput sgr0)\]\[\033[38;5;39m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\])\\$\[$(tput sgr0)\] "
 }
 PROMPT_COMMAND=_prompt_command
+
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
